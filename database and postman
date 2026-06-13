@@ -1,0 +1,10 @@
+CREATE DATABASE studentdb;
+{
+  "name":"Jahnavi",
+  "email":"jahnavi@gmail.com",
+  "course":"ECE"
+}
+
+  GET http://localhost:8080/api/students
+PUT http://localhost:8080/api/students/1
+DELETE http://localhost:8080/api/students/1
